@@ -14,7 +14,7 @@ public class RegisterTest extends BaseClass {
 		driver.findElement(By.id("gender-male")).click();
 		driver.findElement(By.id("FirstName")).sendKeys("ramesh");
 		driver.findElement(By.id("LastName")).sendKeys("kudikala");
-		driver.findElement(By.id("Email")).sendKeys("rkudikala12809@yahoo.com");
+		driver.findElement(By.id("Email")).sendKeys("rkudikala"+randomNum()+"@yahoo.com");
 		driver.findElement(By.id("Password")).sendKeys("testing");
 		driver.findElement(By.id("ConfirmPassword")).sendKeys("testing");
 		
